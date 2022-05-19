@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}    
+
+body {
+    margin: 0;
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 20px #242424;
+}
+
+main {
+    padding: 15px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1.time {
+    text-align: center;
+}
+
+div#crypto {
+    font-size: 1.9rem;
+}
+
+div#crypto > p {
+    margin: 0;
+}
+
+div#crypto-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+div#crypto-top > span {
+    margin-left: 10px;
+}
+
+div#weather {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-self: flex-start;
+    margin-top: -20px;
+}
+
+div#weather > img {
+    width: 70px;
+}
+
+p.weather-city {
+    width: 100%;
+    text-align: right;
+    margin: 0;
+    margin-top: -10px;
+}
+
+p.weather-temp {
+    margin: 0;
+    font-size: 1.9rem;
+    margin-left: -10px;
+}
+
+.time {
+    font-size: 7rem;
+    margin: 0;
+}
+
+.todo-list-container {
+    margin: 0 auto 20%;
+    height: 20vh;
+    width: 400px;
+}
+
+#to-do-header {
+    text-align: center;
+
+}
+
+.input-container {
+    width: 400px;
+}
+
+.text-input {
+    
+    width: 80%;
+    padding: 10px;
+    margin-right: 8px;
+    border-top-left-radius: 999px;
+    border-bottom-left-radius: 999px;
+    border: none;
+}
+
+.add-button {
+    border-radius: 10px;
+    margin: 0;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 30px;
+    border: none;
+}
+
+.list {
+    overflow-y: auto;
+    height:400px;
+}
+
+.list p:hover {
+    opacity: 0.8;
+}
